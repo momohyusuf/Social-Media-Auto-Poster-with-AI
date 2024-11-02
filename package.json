@@ -1,0 +1,31 @@
+{
+  "name": "post-runner",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "linkedin-api-client": "^0.3.0",
+    "linkedin-private-api": "^1.1.2",
+    "oauth-signature": "^1.5.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "toad-scheduler": "^3.0.1",
+    "twitter-api-v2": "^1.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
